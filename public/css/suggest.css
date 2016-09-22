@@ -1,0 +1,30 @@
+body,p,input,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,textarea{margin:0;padding:0;list-style:none;vertical-align:middle;}
+body{font-family:"\5FAE\8F6F\96C5\9ED1", Helvetica;color:#000;-webkit-text-size-adjust:none;line-height:24px;font-size:16px;background:#eceaeb;}
+header,section,footer{display:block;margin:0;padding:0;}
+img{border:0;}
+em,i{font-style:normal;}
+a{text-decoration:none;cursor:pointer;}
+a:hover{text-decoration:none;}
+header,footer,section,aside,article,nav,dialog,figure{display:block;}
+.cf{*zoom:1}
+.cf:after{content:'';display:block;height:0;clear:both;}
+input[type="button"],input[type="submit"],input[type="reset"]{-webkit-appearance:none;}
+.forms{margin:0 10px;text-align:center;}
+.forms textarea{width:98%;padding:5px 1%;height:120px;border:1px solid #dadada;font-size:14px;margin:10px auto 0;outline:none;}
+.forms p{padding-top:10px;text-align:left;}
+.inp_w1,.inp_w2{float:left;width:98%;line-height:14px;padding:6px 1%;border:1px solid #dadada;margin-right:5px;font-size:14px;outline:none;}
+.inp_w1{width:90px;}
+.yzm{float:left;cursor:pointer;}
+.sub{background:#e3493d;border:none;border-radius:5px;display:block;width:30%;height:30px;line-height:30px;text-align:center;font-size:16px;color:#fff;margin:10px auto;}
+.con{color:#aaa;}
+.forms span{color:#e3493d;}
+.p_inp{border:1px solid #dadada;width:96%;padding:5px;height:30px;line-height:30px;}
+.rep{width:90%;margin:0 auto;}
+.rep_ul li{float:left;height:32px;line-height:15px;font-size:14px;width:100%;position:relative;}
+.rep_ul em{background:url(../images/ico_1.png?v=1415269628) no-repeat;background-size:14px 14px;float:left;width:180px;height:14px;margin:10px 5px 0 0;cursor:pointer;}
+.rep_ul input{position:absolute;width:14px;height:14px;display:block;top:10px;-webkit-appearance:none;}
+.rep_on{background:url(../images/ico_2.png?v=1415269628) no-repeat !important;background-size:14px 14px !important;}
+.dialog{width:90%;margin:0 auto; background:#fff; border:1px solid #ececee; border-radius:10px; text-align:center;}
+.dia_con{ padding:35px 0; line-height:1.5em; border-bottom:1px solid #ececee;font-size:14px;}
+.dia_btn{ height:30px; padding:10px 0; text-align:center;}
+.dia_btn a{background:#e3493d;border:none;border-radius:5px;display:inline-block;width:30%;height:30px;line-height:30px;text-align:center;font-size:16px;color:#fff;margin:0 auto;}

@@ -14,7 +14,10 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
+        //全局公用中间件
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+        //\App\Http\Middleware\BeforeMiddleware::class,
+        //\App\Http\Middleware\AfterMiddleware::class,
     ];
 
     /**
@@ -49,5 +52,8 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Foundation\Http\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'suggest' => \App\Http\Middleware\SuggestMiddleware::class,
+         'b_suggest' => \App\Http\Middleware\BeforeMiddleware::class,
+          'a_suggest' => \App\Http\Middleware\AfterMiddleware::class,
     ];
 }

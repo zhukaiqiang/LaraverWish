@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-use App\articles;  //对表操作类进行继承
+use App\Suggest;  //对表操作类进行继承
 
 use Carbon\Carbon;
 
@@ -82,6 +82,7 @@ public function test()
         $people[0] = '1,便宜';
          $people[1] = '2,老板有钱';
           $people[2] = '3,程序员用命在拼';
+          $articles = Suggest::all();
 	return view('test.test',compact('one','last','people','arr'));
 	}
 }
